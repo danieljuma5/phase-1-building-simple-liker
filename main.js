@@ -2,10 +2,8 @@
 const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
-// Adding event listener for when the page loads
-document.addEventListener('DOMContentLoaded', () => {
+// Adding hidden class element
   document.getElementById('modal').classList.add('hidden')
-})
 //Event listeners for all empty hearts
 const emptyHeart = document.getElementsByClassName('like-glyph');
 for(element of emptyHeart) {
